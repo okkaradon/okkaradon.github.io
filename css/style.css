@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html {
+    background-color: #557571;
+}
 body {
     font-family: "Helvetica Neue",
       Arial,
@@ -23,23 +26,50 @@ h1 {
     color:#333333;
 }
 
+
+
+a {
+    font-weight:bold;
+    text-decoration:none;
+}
+    
+a:link {
+    color:#0000FF;
+ }
+    
+a:visited {
+    color:#557571;
+}
+    
+a:hover {
+    color:#557571;
+    text-decoration:underline;
+}
+    
+a:active {
+    color:#557571;
+}
+    
+
 p {
-    color:#009900;
+    color:#557571;
     text-align: center;
 }
 
 .profile {
+    
+    padding: 50px;
     margin: 0 auto;
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
     
 .linklist {
     display: flex;
     flex-wrap: wrap;
     
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 
     min-width: 300px;
@@ -47,8 +77,26 @@ p {
 }
 
 .link {
+    box-sizing: border-box;
     margin-left: 20px;
     text-align: center;
-    width: 120px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.linkpic{
+    background-color: #d49a89;
+    border-radius: 5px;
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.linktext{
+    color: #d49a89;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
     margin: 0 auto;
 }
