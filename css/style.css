@@ -15,47 +15,6 @@ img {
     border-radius: 20px;
 }
 
-main {
-}
-
-div {
-    color: #666666;
-}
-    
-h1 {
-    color:#333333;
-}
-
-
-
-a {
-    font-weight:bold;
-    text-decoration:none;
-}
-    
-a:link {
-    color:#0000FF;
- }
-    
-a:visited {
-    color:#557571;
-}
-    
-a:hover {
-    color:#557571;
-    text-decoration:underline;
-}
-    
-a:active {
-    color:#557571;
-}
-    
-
-p {
-    color:#557571;
-    text-align: center;
-}
-
 .profile {
     
     padding: 50px;
@@ -91,6 +50,11 @@ p {
     
     margin: 0 auto;
     padding: 20px;
+}
+
+a :hover{
+    background-color: #f0b2b2;
+    padding: 21px;
 }
 
 .linktext{
