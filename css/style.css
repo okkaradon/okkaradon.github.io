@@ -46,8 +46,8 @@ img {
 
 .linkpic{
     background-color: #d49a89;
-    border-radius: 5px;
-    
+    border-radius: 10px;
+
     margin: 0 auto;
     padding: 20px;
 }
@@ -62,5 +62,24 @@ a :hover{
     border-radius: 5px;
     height: 20px;
     width: 100px;
+    margin: 0 auto;
+}
+
+.spreadsheets{
+    text-align: center;
+}
+
+.voltaic{
+    color: #ffffff;
+    border-radius: 15px;
+    height: 520px;
+    width: 304px;
+}
+
+.spreadsheetstext{
+    transform:scale(1);
+    color: #d49a89;
+    height: 20px;
+    width: 1000px;
     margin: 0 auto;
 }
