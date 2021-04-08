@@ -52,6 +52,10 @@ img {
     padding: 20px;
 }
 
+a {
+    transition: background-color .5s;
+}
+
 a :hover{
     background-color: #f0b2b2;
     padding: 21px;
@@ -69,16 +73,23 @@ a :hover{
     text-align: center;
 }
 
-.voltaic{
-    color: #ffffff;
-    border-radius: 15px;
-    height: 520px;
-    width: 380px;
-}
-
 .spreadsheetstext{
     color: #d49a89;
     height: 20px;
     width: 600px;
     margin: 0 auto;
+}
+
+.sensi{
+    color: #d49a89;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.voltaic{
+    color: #d49a89;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
 }
