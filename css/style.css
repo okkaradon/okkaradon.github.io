@@ -1,6 +1,6 @@
 @charset "UTF-8";
 html {
-    background-color: #557571;
+    background-color: #949398;
 }
 body {
     font-family: "Helvetica Neue",
@@ -45,7 +45,7 @@ img {
 }
 
 .linkpic{
-    background-color: #d49a89;
+    background-color: #F4DF4EFF;
     border-radius: 10px;
 
     margin: 0 auto;
@@ -57,45 +57,14 @@ img {
 }
 
 .pochi :hover{
-    background-color: #f0b2b2;
+    background-color: rgb(244, 103, 78);
     padding: 21px;
 }
 
 .linktext{
-    color: #d49a89;
+    color: #F4DF4E;
     border-radius: 5px;
     height: 20px;
     width: 100px;
     margin: 0 auto;
-}
-
-.spreadsheets{
-    text-align: center;
-}
-
-.spreadsheetstext{
-    color: #d49a89;
-    height: 20px;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.sensi{
-    color: #d49a89;
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.voltaic{
-    color: #d49a89;
-    width: 300px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.jpmcpvp{
-    margin: 0 auto;
-    width: 560px;
-    height: 110px;
 }
