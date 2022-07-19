@@ -11,19 +11,31 @@ body {
       sans-serif;
 }
 
-img {
-    border-radius: 10px;
-}
-
 .profile {
-    
     padding: 50px;
     margin: 0 auto;
     text-align: center;
     width: 150px;
     height: 150px;
 }
-    
+
+.profile img{
+
+    border-radius: 30px;
+
+}
+
+.profile :hover{
+    transform:rotate(3deg);
+}
+
+.profile :active {
+    transform:rotate(6deg);
+    width: 999px;
+    height: 150px;
+}
+
+
 .linklist {
     display: flex;
     flex-wrap: wrap;
@@ -32,7 +44,7 @@ img {
     margin: 0 auto;
 
     min-width: 300px;
-    max-width: 600px;
+    max-width: 450px;
 }
 
 .link {
@@ -57,8 +69,8 @@ img {
 }
 
 .pochi :hover{
-    background-color: rgb(244, 103, 78);
-    padding: 21px;
+    background-color: #ffee82;
+    transform:rotate(7deg);
 }
 
 .linktext{
