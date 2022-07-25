@@ -12,29 +12,39 @@ body {
 }
 
 .profile {
-    padding: 50px;
     margin: 0 auto;
     text-align: center;
-    width: 150px;
-    height: 150px;
 }
 
 .profile img{
-
+    width: 150px;
+    height: 150px;
     border-radius: 30px;
 
 }
 
-.profile :hover{
-    transform:rotate(3deg);
+.profile :hover {
+    filter: saturate(40);
+    filter: hue-rotate(180deg);
+    transform:rotate(180deg);
 }
 
 .profile :active {
-    transform:rotate(6deg);
-    width: 999px;
-    height: 150px;
+    filter: saturate(40);
+    border-radius: 75px;
+    animation: 何jbもの 0.177777s linear infinite;
+    width: 1500px;
 }
 
+.profile:active ~ .linklist .linkpic{   
+    filter: saturate(40);
+    animation: 何jbもの 0.75s ease-in-out infinite;
+}
+
+@keyframes 何jbもの {
+    0% { filter: hue-rotate(360deg); transform:rotate(0deg);}
+    100% { filter: hue-rotate(0deg); transform:rotate(360deg);}
+}
 
 .linklist {
     display: flex;
@@ -45,6 +55,7 @@ body {
 
     min-width: 300px;
     max-width: 450px;
+    padding: 100px;
 }
 
 .link {
