@@ -43,7 +43,7 @@ body {
 
 @keyframes 何jbもの {
     0% { filter: hue-rotate(360deg); transform:rotate(0deg);}
-    100% { filter: hue-rotate(0deg); transform:rotate(360deg);}
+    100% { filter: hue-rotate(0deg); transform:rotate(1080deg);}
 }
 
 .linklist {
