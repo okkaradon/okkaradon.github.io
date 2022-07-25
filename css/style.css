@@ -2,6 +2,9 @@
 html {
     background-color: #949398;
 }
+header {
+    padding: 100px;
+}
 body {
     font-family: "Helvetica Neue",
       Arial,
@@ -12,6 +15,9 @@ body {
 }
 
 .profile {
+    
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
     text-align: center;
 }
@@ -29,21 +35,25 @@ body {
     transform:rotate(180deg);
 }
 
-.profile :active {
-    filter: saturate(40);
-    border-radius: 75px;
-    animation: 何jbもの 0.177777s linear infinite;
+.profile:active {
     width: 1500px;
+}
+.profile :active {
+    filter: drop-shadow(0 0 100px rgb(0, 0, 0));
+    animation: 何jbもの 10s ease-in-out infinite;
+    width: 1000px;
 }
 
 .profile:active ~ .linklist .linkpic{   
-    filter: saturate(40);
-    animation: 何jbもの 0.75s ease-in-out infinite;
+    animation: 何jbもの 0.2s linear infinite;
 }
 
 @keyframes 何jbもの {
-    0% { filter: hue-rotate(360deg); transform:rotate(0deg);}
-    100% { filter: hue-rotate(0deg); transform:rotate(1080deg);}
+    0% { filter: hue-rotate(360deg); filter: brightness(0); transform:rotate(0deg);}
+    25% { filter: hue-rotate(270deg); filter: brightness(5); transform:rotate(360deg);}
+    50% { filter: hue-rotate(180deg); filter: brightness(0); transform:rotate(0deg);}
+    75% { filter: hue-rotate(90deg); filter: brightness(5); transform:rotate(360deg);}
+    100% { filter: hue-rotate(0deg); filter: brightness(0); transform:rotate(0deg);}
 }
 
 .linklist {
