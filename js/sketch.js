@@ -19,14 +19,14 @@ function setup() {
 }
 
 function draw(){
-    background('#56CBF944');
+    background('#56CBF930');
     canvas.position(0,0);
     noStroke();
     
-    fill('#09ACEC77')
+    fill('#09ACEC30')
     rect(0, 0, mouseX, mouseY);
     
-    fill('#B0E7FC77')
+    fill('#B0E7FC30')
     rect(mouseX, mouseY, windowWidth-mouseX, windowHeight-mouseY);
 
     fill('#D3C4D157')
@@ -38,8 +38,15 @@ function draw(){
     fill('#FF99B957')
     rect(0,mouseY-400,mouseX/2,mouseY/2);
 
-    fill('#FFFFFF99')
+    fill('#FFFFFF30')
     cfr = frameRate();
     text(int(cfr)+"fps", 20, windowHeight-10);
+
+    fill('#FFFFFF10')
+    textFont('Yu Gothic UI',24);
+    text('Windows のライセンス認証', windowWidth-450, windowHeight-50);
+    textFont('Yu Gothic UI',16);
+    text('設定を開き、Windowsのライセンス認証を行ってください。', windowWidth-450, windowHeight-30);
+
 }
   
