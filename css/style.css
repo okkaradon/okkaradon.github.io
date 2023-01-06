@@ -36,11 +36,9 @@ body {
 }
 
 .profile :hover {
-    filter: saturate(40);
-    filter: hue-rotate(180deg);
     
-    width: 95%;
-    max-width: 1000px;
+    max-width: 100px;
+    animation: 何jbもの 30s linear infinite;
 }
 
 .profile:hover {
@@ -48,7 +46,7 @@ body {
 }
 
 .profile:hover ~ .linklist {   
-    animation: 何jbもの 0.8s linear infinite;
+    animation: 何jbもの 0.1s linear infinite;
 }
 
 @keyframes 何jbもの {
@@ -57,21 +55,12 @@ body {
 }
 
 
-
-
 .dummypadding {
     width: 0px;
     height: 90px;
     margin: 0 auto;
     text-align: center;
 }
-
-
-
-
-
-
-
 
 
 
@@ -87,7 +76,7 @@ body {
     padding-top: 0px;
 }
 
-.link {
+.mylink {
     box-sizing: border-box;
     margin-left: 20px;
     text-align: center;
@@ -106,12 +95,62 @@ body {
 
 .pochi {
     transition: background-color .5s;
+    
 }
 
 .pochi :hover{
     background-color: #FF0A58;
     transform:rotate(7deg);
 }
+
+.midoru {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.midoru1{
+    box-sizing: border-box;
+    margin-left: 20px;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.sougos {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 90%;
+    margin: 0 auto;
+
+    min-width: 300px;
+    max-width: 450px;
+    padding-top: 0px;
+}
+
+.sougo {
+    box-sizing: border-box;
+    margin-left: 0px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.sougoimg{
+    border-radius: 6px;
+}
+
+.kaunta {
+    width: 450px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+
+
 
 .linktext{
     color: #FF0A58;
