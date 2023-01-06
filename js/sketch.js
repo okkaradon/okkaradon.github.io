@@ -14,28 +14,28 @@ function setup() {
     canvas = createCanvas(windowWidth,windowHeight);
     canvas.position(0,0);
     canvas.style('z-index','-1');//canvasを後ろに移動する
-    background('#56CBF9');
+    background('#2A7F62');
     
 }
 
 function draw(){
-    background('#56CBF930');
+    background('#2A7F6230');
     canvas.position(0,0);
     noStroke();
     
-    fill('#09ACEC30')
+    fill('#53808330')
     rect(0, 0, mouseX, mouseY);
     
-    fill('#B0E7FC30')
+    fill('#89909F30')
     rect(mouseX, mouseY, windowWidth-mouseX, windowHeight-mouseY);
 
-    fill('#D3C4D157')
+    fill('#C3ACCE57')
     rect(windowWidth-mouseX, windowHeight-mouseY, windowHeight-mouseY, windowHeight-mouseY);
 
     fill('#FFFFFF57')
     rect(mouseX-100, mouseY-300, mouseX, mouseY);
 
-    fill('#FF99B957')
+    fill('#DFD9E257')
     rect(0,mouseY-400,mouseX/2,mouseY/2);
 
     fill('#FFFFFF30')
