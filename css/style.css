@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+#defaultCanvas0{
+    position: fixed; /*canvasを固定*/
+    top: 0; /*canvasを上に固定*/
+  }
+
 header {
     padding: 10px;
     color: rgba(0, 0, 0, 0.108);
@@ -20,12 +25,8 @@ body {
     height: 100px;
     margin: 0 auto;
     text-align: center;
-}
-.profile {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    text-align: center;
+    
+    border-radius: 30px;
 }
 
 .profile img{
@@ -36,13 +37,7 @@ body {
 }
 
 .profile :hover {
-    
-    max-width: 100px;
     animation: 何jbもの 30s linear infinite;
-}
-
-.profile:hover {
-    width: 100%;
 }
 
 .profile:hover ~ .linklist {   
