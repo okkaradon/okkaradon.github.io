@@ -5,11 +5,15 @@ let score
 
 function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
+  canvas.position(0,0);
+  canvas.style('z-index','-1');
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight,);
+  canvas=createCanvas(windowWidth, windowHeight);
   spawn()
   spawntime+=3000
+  canvas.position(0,0);
+  canvas.style('z-index','-1');
 }
 
 function spawn(){
