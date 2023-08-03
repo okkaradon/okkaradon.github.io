@@ -40,6 +40,7 @@ function draw() {
     angleMode(RADIANS);//ラヂヤン
 
     if(angle > 0.01) {angle /= 1.002;}
+    if(angle < -0.01) {angle /= 1.002;}
     //キャンパスの回転
     push();
         translate(width/2, height/2);
