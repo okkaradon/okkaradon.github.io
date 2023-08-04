@@ -1,4 +1,4 @@
-let angle = 0;//角回転速度 
+let angle = 0.0009;//角回転速度 
 let xo;
 let yo;
 function windowResized() {
@@ -39,20 +39,21 @@ function draw() {
     }
     angleMode(RADIANS);//ラヂヤン
 
-    if(angle > 0.01) {angle /= 1.002;}
-    if(angle < -0.01) {angle /= 1.002;}
+    if(abs(angle) >= 0.01) {angle /= 1.002;}
     //キャンパスの回転
     push();
         translate(width/2, height/2);
         rotate(angle);
         image(canvas,-xo,-yo);
     pop();
+
+
     push();
         translate(2*xo,2*yo);
 	    image(alert,-xo,-yo);
     pop();
+
     //線の描画
-    
     push();
         strokeWeight(10-movedX/4-movedY/4);
         stroke(255);    
