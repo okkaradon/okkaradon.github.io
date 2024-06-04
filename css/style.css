@@ -3,7 +3,8 @@
 #defaultCanvas0{
     position: fixed; /*canvasを固定*/
     top: 0; /*canvasを上に固定*/
-  }
+    background-color: #C8B496;
+}
 
 header {
     padding: 10px;
@@ -63,11 +64,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     animation: 何jbもの 100s linear infinite;
-    width: 90%;
     margin: 0 auto;
 
-    min-width: 300px;
-    max-width: 450px;
+    width: 340px;
+    height: 340px;
     padding-top: 0px;
 }
 
@@ -75,13 +75,11 @@ body {
     box-sizing: border-box;
     margin-left: 20px;
     text-align: center;
-    width: 150px;
-    height: 150px;
     margin: 0 auto;
 }
 
 .linkpic{
-    background-color: #FF729F;
+    background-color: #525068;
     border-radius: 10px;
 
     margin: 0 auto;
@@ -94,7 +92,7 @@ body {
 }
 
 .pochi :hover{
-    background-color: #FF0A58;
+    background-color: #75738f;
     transform:rotate(7deg);
 }
 
