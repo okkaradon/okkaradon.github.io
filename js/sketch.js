@@ -27,6 +27,7 @@ function setup() {
   background(40, 25, 80); // 涙が乾いた背景
   noStroke(); // 涙に線は不要
   createTears(); // 涙が流れる
+  frameRate(360);
 }
 
 function draw() {
